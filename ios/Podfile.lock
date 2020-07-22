@@ -296,9 +296,11 @@ PODS:
     - React-cxxreact (= 0.62.2)
     - React-jsi (= 0.62.2)
     - ReactCommon/callinvoker (= 0.62.2)
-  - RNBootSplash (2.2.4):
+  - RNBootSplash (2.2.5):
     - React
   - RNCAsyncStorage (1.9.0):
+    - React
+  - RNCPushNotificationIOS (1.4.0):
     - React
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -355,6 +357,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNBootSplash (from `../node_modules/react-native-bootsplash`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
+  - "RNCPushNotificationIOS (from `../node_modules/@react-native-community/push-notification-ios`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -429,6 +432,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-bootsplash"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-community/async-storage"
+  RNCPushNotificationIOS:
+    :path: "../node_modules/@react-native-community/push-notification-ios"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -470,8 +475,9 @@ SPEC CHECKSUMS:
   React-RCTText: fae545b10cfdb3d247c36c56f61a94cfd6dba41d
   React-RCTVibration: 4356114dbcba4ce66991096e51a66e61eda51256
   ReactCommon: ed4e11d27609d571e7eee8b65548efc191116eb3
-  RNBootSplash: c3cdf87277e3d6a1c77b152671d3dffd976670b1
+  RNBootSplash: 53246dde82e8c2d2c46b15b0106933ee4115c00e
   RNCAsyncStorage: b16697280b08bab4b5f2f67f752d93d13a52e9ed
+  RNCPushNotificationIOS: f4a1a20fe1d70bbb1fab6abf86ffec2996012b12
   Yoga: 3ebccbdd559724312790e7742142d062476b698e
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 

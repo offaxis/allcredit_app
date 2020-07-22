@@ -1,6 +1,8 @@
 #import "AppDelegate.h"
 
-#import "RNBootSplash.h"
+// #import "RNBootSplash.h" // <- add the header import
+
+
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
@@ -45,8 +47,8 @@ static void InitializeFlipper(UIApplication *application) {
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
 
-  [RNBootSplash initWithStoryboard:@"BootSplash" rootView:rootView];
-  
+  // [RNBootSplash initWithStoryboard:@"BootSplash" rootView:rootView]; // <- initialization using the storyboard file name
+
   return YES;
 }
 

@@ -39,14 +39,14 @@ class HomePage extends Component {
 
     componentDidMount() {
         console.log('Show spashscreen');
-        !this.state.displayLogo && RNBootSplash.show();
+        !this.state.displayLogo && Platform.OS !== 'ios' && RNBootSplash.show();
         setTimeout(() => {
             console.log('Hide spashscreen');
             this.setState({
                 displayLogo: true,
             });
             RNBootSplash.hide();
-        }, 2000);
+        }, Platform.OS === 'ios' ? 0 : 2000);
 
         this.initNotification();
 
@@ -161,7 +161,7 @@ class HomePage extends Component {
                     <View style={{ height: '100%', minHeight: 500 }}>
                         {this.state.displayLogo && (
                             <View>
-                                <Animatable.View animation={zoomOut} duration={500} delay={0} onAnimationEnd={() => this.setState({ displayMenu: true })}>
+                                <Animatable.View animation={zoomOut} duration={500} delay={Platform.OS === 'ios' ? 500 : 0} onAnimationEnd={() => this.setState({ displayMenu: true })}>
                                     <PageTitle />
                                 </Animatable.View>
                             </View>

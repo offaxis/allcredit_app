@@ -76,9 +76,9 @@
 		00E356EE1AD99517003FC87E /* allcredit_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = allcredit_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* allcredit_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = allcredit_appTests.m; sourceTree = "<group>"; };
-		04E3B606643045569BFB6861 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		06FB470C70A04D68B03D1525 /* AvenirLTStd-Roman.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Roman.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Roman.otf"; sourceTree = "<group>"; };
-		072A9A5052D849BFA2D23085 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		04E3B606643045569BFB6861 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		06FB470C70A04D68B03D1525 /* AvenirLTStd-Roman.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Roman.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Roman.otf"; sourceTree = "<group>"; };
+		072A9A5052D849BFA2D23085 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		087981B3811165FBC73C65C7 /* Pods-allcredit_app-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-allcredit_app-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-allcredit_app-tvOS/Pods-allcredit_app-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		0AECAEA0D83CC55CD20753FA /* Pods-allcredit_app-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-allcredit_app-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-allcredit_app-tvOSTests/Pods-allcredit_app-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* allcredit_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = allcredit_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,48 +88,48 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = allcredit_app/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = allcredit_app/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = allcredit_app/main.m; sourceTree = "<group>"; };
-		141610042D854947B91DDD8F /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
-		1541E8067A354634A95A62ED /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
-		1A8DE7A850804066B51B7AEA /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		1D0ECCE04AB84F8893633AF7 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		141610042D854947B91DDD8F /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		1541E8067A354634A95A62ED /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		1A8DE7A850804066B51B7AEA /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		1D0ECCE04AB84F8893633AF7 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		1FBFC9383D920ED4CC8EDB6C /* Pods-allcredit_app-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-allcredit_app-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-allcredit_app-tvOSTests/Pods-allcredit_app-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		201F87EAF3274729B26BBF17 /* AvenirLTStd-BlackOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-BlackOblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-BlackOblique.otf"; sourceTree = "<group>"; };
+		201F87EAF3274729B26BBF17 /* AvenirLTStd-BlackOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-BlackOblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-BlackOblique.otf"; sourceTree = "<group>"; };
 		231313271845682ACE6B05FA /* libPods-allcredit_app-allcredit_appTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-allcredit_app-allcredit_appTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24A27A39BF4F4BAFB68458A7 /* AvenirLTStd-BookOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-BookOblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-BookOblique.otf"; sourceTree = "<group>"; };
-		2880DC7DA8824739BA2F2690 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		24A27A39BF4F4BAFB68458A7 /* AvenirLTStd-BookOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-BookOblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-BookOblique.otf"; sourceTree = "<group>"; };
+		2880DC7DA8824739BA2F2690 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* allcredit_app-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "allcredit_app-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* allcredit_app-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "allcredit_app-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3036CCD60E5F417C828BCE12 /* AvenirLTStd-HeavyOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-HeavyOblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-HeavyOblique.otf"; sourceTree = "<group>"; };
-		31E0402DAFFD4B72AD24D442 /* AvenirLTStd-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Medium.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Medium.otf"; sourceTree = "<group>"; };
-		44A50BF919CB4EED99020058 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		49DA8AA29D2347988442BA0D /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		50358D8005CD439080990753 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		516DDFEE44904EF8AAA1763E /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		3036CCD60E5F417C828BCE12 /* AvenirLTStd-HeavyOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-HeavyOblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-HeavyOblique.otf"; sourceTree = "<group>"; };
+		31E0402DAFFD4B72AD24D442 /* AvenirLTStd-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Medium.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Medium.otf"; sourceTree = "<group>"; };
+		44A50BF919CB4EED99020058 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		49DA8AA29D2347988442BA0D /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		50358D8005CD439080990753 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		516DDFEE44904EF8AAA1763E /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		57BBAB1A780EFB41DA59E5DA /* libPods-allcredit_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-allcredit_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DE362EBEDCC51D747E8323 /* Pods-allcredit_app-allcredit_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-allcredit_app-allcredit_appTests.debug.xcconfig"; path = "Target Support Files/Pods-allcredit_app-allcredit_appTests/Pods-allcredit_app-allcredit_appTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5AE683B6230943A1A33DDCE1 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		645FDB3D516944658F6FB1D4 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		676E4880746C499E9E4794EF /* AvenirLTStd-Book.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Book.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Book.otf"; sourceTree = "<group>"; };
+		5AE683B6230943A1A33DDCE1 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		645FDB3D516944658F6FB1D4 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		676E4880746C499E9E4794EF /* AvenirLTStd-Book.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Book.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Book.otf"; sourceTree = "<group>"; };
 		6EFE54FFEF6B7EEA3E85526A /* Pods-allcredit_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-allcredit_app.release.xcconfig"; path = "Target Support Files/Pods-allcredit_app/Pods-allcredit_app.release.xcconfig"; sourceTree = "<group>"; };
-		76E50F639C744A4E8024FEA1 /* Akaju.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Akaju.otf; path = ../src/assets/fonts/Akaju/Akaju.otf; sourceTree = "<group>"; };
-		7DD1B48B9A544B65B3E20C48 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		76E50F639C744A4E8024FEA1 /* Akaju.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Akaju.otf; path = ../src/assets/fonts/Akaju/Akaju.otf; sourceTree = "<group>"; };
+		7DD1B48B9A544B65B3E20C48 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		85AB6ABA3B26304F551E227E /* Pods-allcredit_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-allcredit_app.debug.xcconfig"; path = "Target Support Files/Pods-allcredit_app/Pods-allcredit_app.debug.xcconfig"; sourceTree = "<group>"; };
-		89F6038005B4429E8FCFEF1D /* AvenirLTStd-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Heavy.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Heavy.otf"; sourceTree = "<group>"; };
-		8B0AC3FA5AAE4DE7A4D90D6D /* AvenirLTStd-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Black.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Black.otf"; sourceTree = "<group>"; };
-		8EF411394BF447A89356C213 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		8F66949E5CF048618CC25819 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		8FF4B4093C7C42F19FFA203C /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		89F6038005B4429E8FCFEF1D /* AvenirLTStd-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Heavy.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Heavy.otf"; sourceTree = "<group>"; };
+		8B0AC3FA5AAE4DE7A4D90D6D /* AvenirLTStd-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Black.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Black.otf"; sourceTree = "<group>"; };
+		8EF411394BF447A89356C213 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		8F66949E5CF048618CC25819 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		8FF4B4093C7C42F19FFA203C /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		979D8C7AC7AFF2B3E317D512 /* libPods-allcredit_app-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-allcredit_app-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC939848888447A9962CB812 /* AvenirLTStd-LightOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-LightOblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-LightOblique.otf"; sourceTree = "<group>"; };
-		AEEF01590AFC48EC90E9D9B4 /* AvenirLTStd-Oblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Oblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Oblique.otf"; sourceTree = "<group>"; };
+		AC939848888447A9962CB812 /* AvenirLTStd-LightOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-LightOblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-LightOblique.otf"; sourceTree = "<group>"; };
+		AEEF01590AFC48EC90E9D9B4 /* AvenirLTStd-Oblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Oblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Oblique.otf"; sourceTree = "<group>"; };
 		B628DF24EEEBD1849886B6E9 /* Pods-allcredit_app-allcredit_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-allcredit_app-allcredit_appTests.release.xcconfig"; path = "Target Support Files/Pods-allcredit_app-allcredit_appTests/Pods-allcredit_app-allcredit_appTests.release.xcconfig"; sourceTree = "<group>"; };
 		B7D4419E1E688F56E78BAB71 /* libPods-allcredit_app-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-allcredit_app-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3EB5F3C341C45C3988170BF /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
-		DABB9CFF7EF8485BBDBF9C02 /* AvenirLTStd-MediumOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-MediumOblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-MediumOblique.otf"; sourceTree = "<group>"; };
-		EABFD7FA078F4F10BF2D8AD9 /* AvenirLTStd-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Light.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Light.otf"; sourceTree = "<group>"; };
+		D3EB5F3C341C45C3988170BF /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		DABB9CFF7EF8485BBDBF9C02 /* AvenirLTStd-MediumOblique.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-MediumOblique.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-MediumOblique.otf"; sourceTree = "<group>"; };
+		EABFD7FA078F4F10BF2D8AD9 /* AvenirLTStd-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirLTStd-Light.otf"; path = "../src/assets/fonts/AvenirLTStd/AvenirLTStd-Light.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F3900D85BB8245E9ACE169C7 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		F3900D85BB8245E9ACE169C7 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		F3970BA49E0FB08B6D27D452 /* Pods-allcredit_app-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-allcredit_app-tvOS.release.xcconfig"; path = "Target Support Files/Pods-allcredit_app-tvOS/Pods-allcredit_app-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -237,7 +237,6 @@
 				49DA8AA29D2347988442BA0D /* Zocial.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		2318CCE2E8F2210C93C26BD9 /* Pods */ = {
@@ -252,7 +251,6 @@
 				1FBFC9383D920ED4CC8EDB6C /* Pods-allcredit_app-tvOSTests.debug.xcconfig */,
 				0AECAEA0D83CC55CD20753FA /* Pods-allcredit_app-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -397,6 +395,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = Z3UZFM8P42;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -767,6 +766,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z3UZFM8P42;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -779,10 +779,11 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.all.credit;
 				PRODUCT_NAME = allcredit_app;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -794,6 +795,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z3UZFM8P42;
 				INFOPLIST_FILE = allcredit_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -801,9 +803,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.all.credit;
 				PRODUCT_NAME = allcredit_app;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

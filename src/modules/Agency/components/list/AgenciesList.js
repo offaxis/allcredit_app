@@ -47,7 +47,7 @@ class AgenciesList extends Component {
                 ? (
                     <View>
                         {this.props.displayTitle && (
-                            <View style={{ fontSize: 14, marginBottom: 5 }}><Text>Nos agences:</Text></View>
+                            <View style={{ fontSize: 14, marginBottom: 10 }}><Text>Nos agences:</Text></View>
                         )}
                         {agencies.map((agency, index) => <AgenciesListItem key={agency.id} agency={agency} goToAgency={this.handleGoToAgency} hideSeparator={index === (agencies.length - 1)} />)}
                     </View>

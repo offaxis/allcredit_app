@@ -75,7 +75,7 @@ class AgenciesPage extends Component {
                                         keyboardType="numeric"
                                     />
                                 </Item>
-                                <Button disabled={!this.state.department} onPress={this.handleSetDepartment} transparent style={[{ flex: 1, marginTop: 20, textAlign: 'center' }]}><Icon type="FontAwesome5" name="check-circle" style={styles.successText} /></Button>
+                                <Button disabled={!this.state.department} onPress={this.handleSetDepartment} transparent style={[{ flex: 1, marginTop: 20, textAlign: 'center' }]}><Icon type="FontAwesome5" name="search" style={styles.successText} /></Button>
                             </Form>
                         </View>
 

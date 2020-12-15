@@ -5,7 +5,7 @@ export const SET_AGENCIES = 'SET_AGENCIES';
 
 export function getAgenciesRequest() {
     return dispatch => {
-        return callExternalApi('https://test.allcredit.fr/wp-json/acf/v3/posts?per_page=1000').then(results => {
+        return callExternalApi('https://allcredit.fr/wp-json/acf/v3/posts?per_page=1000').then(results => {
             if(results) {
                 const agencies = results.map(data => data.acf);
                 dispatch(setAgencies(agencies));

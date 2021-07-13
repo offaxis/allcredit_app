@@ -36,13 +36,13 @@ export default class SimulatorMonthlyLoan extends Component {
     // M = loan = ( m x T ) / 1 – ( 1 + T ) ^( -n )
     handleCalculation(event) {
         const { department, amount, duration } = this.state;
-        const rate = (this.state.rate || '').replace(',', '.');
+        const rate = parseFloat((this.state.rate || '').replace(',', '.'));
 
         if(department && amount && rate && duration) {
             console.log(amount, rate, duration);
 
             // old : (((amount * rate) / 1 - (1 + rate) ** -(duration)) / duration)
-            const loan = (amount * (rate / 100) / 12) / (1 - Math.pow((1 + ((rate / 100) / 12)), -(duration * 12)));
+            const loan = ((parseFloat(amount) * (rate / 100)) / 12) / (1 - Math.pow((1 + ((rate / 100) / 12)), -(parseInt(duration, 10) * 12)));
             console.log(loan);
 
             this.setState({

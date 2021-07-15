@@ -107,7 +107,7 @@ export default class SimulatorNotaryFees extends Component {
 
             let fee = (
                 (
-                    (price * parseFloat(pourcentage))
+                    (parseFloat(price) * parseFloat(pourcentage))
                     / 100
                 ) + parseFloat(montant) + 850
             ) * 1.2;
@@ -119,14 +119,14 @@ export default class SimulatorNotaryFees extends Component {
             // ) * 1.2;
 
             if(isNew) {
-                fee += (price * 0.715) / 100;
+                fee += (parseFloat(price) * 0.715) / 100;
                 //     F = F+((P*0.715)/100);
             } else {
-                fee += (price * 5.8067) / 100;
+                fee += (parseFloat(price) * 5.8067) / 100;
                 //     F = F+((P*5.8067)/100);
             }
 
-            fee += ((price * 0.1) / 100) + 50;
+            fee += ((parseFloat(price) * 0.1) / 100) + 50;
             // F = F+((P*0.10)/100)+50;
 
 

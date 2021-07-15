@@ -35,12 +35,12 @@ export default class SimulatorBorrowingCapacity extends Component {
     // M = amount = m x ( 1 – ( 1 + T / 12 ) ^ ( - n ) ) / ( T / 12 )
     handleCalculation(event) {
         const { department, loan, duration } = this.state;
-        const rate = (this.state.rate || '').replace(',', '.');
+        const rate = parseFloat((this.state.rate || '').replace(',', '.'));
 
         if(department && loan && rate && duration) {
             console.log(loan, rate, duration);
 
-            const amount = loan * (1 - Math.pow((1 + ((rate / 100) / 12)), -(duration * 12))) / ((rate / 100) / 12);
+            const amount = loan * (1 - Math.pow((1 + ((rate / 100) / 12)), -(parseInt(duration, 10) * 12))) / ((rate / 100) / 12);
             console.log(amount);
 
             this.setState({

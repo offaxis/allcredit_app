@@ -35,13 +35,13 @@ export default class SimulatorDuration extends Component {
     // n = duration = ln ( - M / ( T / 12 x m – M) / ln ( 1 + T / 12 )
     handleCalculation(event) {
         const { department, amount } = this.state;
-        const rate = (this.state.rate || '').replace(',', '.');
-        const loan = (this.state.loan || '').replace(',', '.');
+        const rate = parseFloat((this.state.rate || '').replace(',', '.'));
+        const loan = parseFloat((this.state.loan || '').replace(',', '.'));
 
         if(department && amount && rate && loan) {
             console.log(amount, rate, loan, -loan, ((rate / 12) * amount), -loan / ((rate / 12) * amount) - loan, Math.log((-loan / ((rate / 12) * amount) - loan) / Math.log(1 + rate / 12)));
 
-            const duration = Math.log(-loan / ((rate / 100) / 12 * amount - loan)) / Math.log(1 + (rate / 100) / 12);
+            const duration = Math.log(-loan / ((rate / 100) / 12 * parseFloat(amount) - loan)) / Math.log(1 + (rate / 100) / 12);
             // const duration = Math.log((-loan / ((rate / 12) * amount) - loan) / Math.log(1 + rate / 12));
             console.log('result', duration);
 

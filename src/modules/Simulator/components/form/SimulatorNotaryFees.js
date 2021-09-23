@@ -26,7 +26,7 @@ export default class SimulatorNotaryFees extends Component {
     }
 
     componentDidMount() {
-        callExternalApi('http://test.allcredit.fr/notaire.json',
+        callExternalApi('http://allcredit.fr/notaire.json',
             // , 'post', {
             //     fees: [
             //         {
